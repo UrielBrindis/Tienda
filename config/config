@@ -1,0 +1,21 @@
+<?php
+
+
+define("SITE_URL", "http://localhost/tienda2");
+define("CLIENT_ID", "AVLG7XFziE7RBfazm11EbUmBtixnXC4VT12A7Ogj7hNQLag-c0sYJzx_x77NxB5Tra4hfOiZaHx1pcPH");
+define("CURRENCY", "USD");
+define("KEY_TOKEN", "APR.wqc-354");
+define("MONEDA", "$");
+
+
+define("MAIL_HOST", "smtp.gmail.com");
+define("MAIL_USER", "noreplay.twentyonerecords@gmail.com");
+define("MAIL_PASS", "Twenty21");
+define("MAIL_PORT", "465");
+
+session_start();
+
+$num_cart = 0;
+if(isset($_SESSION['carrito']['productos'])){
+    $num_cart = count($_SESSION['carrito']['productos']);
+}
