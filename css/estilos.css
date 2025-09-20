@@ -1,0 +1,38 @@
+main > .container{
+  padding: 25px 0;
+}
+
+.form-login {
+max-width: 350px;
+}
+
+/* Estilos para la barra de géneros */
+.btn-outline-primary {
+  background-color: black; /* Fondo negro */
+  color: white; /* Texto blanco */
+  font-size: 1.2rem; /* Tamaño de texto aumentado */
+  padding: 12px 20px; /* Tamaño del botón */
+  border: none; /* Sin borde */
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn-outline-primary:hover {
+  background-color: #333; /* Negro más claro al pasar el mouse */
+  color: #fff; /* Texto blanco */
+}
+
+.btn-outline-primary.active {
+  background-color: #555; /* Fondo diferente para el botón activo */
+}
+
+.btn-genero {
+  width: 150px; /* Ajusta el tamaño según lo que necesites */
+  text-align: center; /* Centra el texto dentro del botón */
+}
+
+.btn-comprar, .btn-agregar {
+  display: block;
+  width: 100%; /* Ambos botones tendrán el mismo ancho */
+  padding: 10px; /* Asegúrate de que tengan el mismo padding */
+  font-size: 16px; /* Ajusta el tamaño de la fuente para igualarlos */
+}
